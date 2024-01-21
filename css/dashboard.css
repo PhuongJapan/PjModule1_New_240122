@@ -1,0 +1,153 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #F4F4F4ba !important; */
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 0;
+    /* height: 100%; */
+    height: 100vh;
+    /* background: radial-gradient(circle at 94.02% 88.03%, #94c2f7, transparent 100%),radial-gradient(circle at 25.99% 27.79%, #ff94fb, transparent 100%),radial-gradient(circle at 50% 50%, #000000, #000000 100%); */
+}
+#main-page{
+    display: grid;
+    /* viết tắt dg */
+    grid-template-columns: 0.2fr 0.8fr;
+    /* tùy vào số cột muốn chia A B C... */
+}
+.logo-sidebar{
+    text-align: center;
+    /* set cho cả group vào giữa */
+    padding: 50px 0px 10px;
+}
+.logo-sidebar img{
+    width: 100px;
+    height: 100px;
+}
+
+#main{
+    background-color: rgb(24, 24, 33);
+    /* background-color: #202020; */
+    color: white;    
+    min-height: 100vh;
+
+}
+.logo-sidebar p{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 52px;
+    border-bottom: 1px solid silver;
+}
+.menu-sidebar{
+    padding: 20px;
+    text-align: center;
+}
+ #main .menu-sidebar li a:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8)
+  }
+
+.menu-sidebar ul{
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  #main .menu-sidebar ul li{
+    list-style: none;
+  }
+
+ #main .menu-sidebar ul li a{
+    display: flex;
+    align-items: center;
+    background: none;
+    color: #CFD8DC;
+    font-size: 15px;
+    padding: 16px 10px;
+    text-decoration: none;
+    margin:auto;  
+  }
+ 
+  .menu-sidebar a i{
+    margin-right: 10px;
+  }
+
+h3{
+    font-size: 25px;
+    color:brown;
+    
+}
+.head{
+    display: flex;
+    height: 95px;
+    /* background-color: #FCFAFA; */
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header{
+    text-align: center;
+}
+
+.text-center{
+    color: #555;
+}
+#content{ 
+    padding: 20px 0px;
+    
+}
+.general-info{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.head p {
+    font-size: 15px;
+    line-height: 5;
+    text-align: center;
+    color: #555;
+    margin: 10px auto;
+    max-width: 80% ;
+} 
+
+#btnLogout button{
+    font-size: inherit; /* Kế thừa kích thước chữ từ phần tử cha */
+    padding: 5px 10px; 
+    width: auto;
+    display: inline-block; 
+    border: none;
+    text-align: center; 
+    background-color: transparent; 
+    color: white;
+    
+}
+.divider {
+    width: 33%;
+    border-bottom: 3px double rgba(74, 75, 104, 1);
+    margin-top: 10px;
+    margin: 10px auto;
+    
+    
+}
+footer {
+    text-align: center; 
+    /* background-color: rgb(251, 241, 241); 
+    color:black;  */
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 80vw;
+     
+  
+}
+.info-group {
+    margin-bottom: 20px;
+}
+.info-group p{
+   margin-left: 35px;
+   margin-bottom: 0px !important;
+}
+

@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f4f4f4ba !important;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 0;
+    /* height: 100%; */
+    height: 100vh;
+    /* background: radial-gradient(circle at 94.02% 88.03%, #94c2f7, transparent 100%),radial-gradient(circle at 25.99% 27.79%, #ff94fb, transparent 100%),radial-gradient(circle at 50% 50%, #000000, #000000 100%); */
+  
+  }
+  
+  .logo img {
+    margin-top: 26px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #main {
+    z-index: 1000;
+    position: fixed;
+    /* background-color: rgba(74, 75, 104, 1); */
+    background-color: rgb(24, 24, 33);
+    color: white;
+    left: 250px;
+    width: 250px;
+    margin-left: -250px;
+    top: 0;
+  }
+  .logo p {
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+    border-bottom: 1px solid silver;
+  }
+  
+  #main .menu-sidebar {
+    margin-bottom: 0;
+    height: 789px;
+  }
+  #main .menu-sidebar li a:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  
+  #main .menu-sidebar ul {
+    padding: 0;
+  }
+  #main .menu-sidebar ul li {
+    list-style: none;
+  }
+  
+  #main .menu-sidebar ul li a {
+    display: flex;
+    align-items: center;
+    background: none;
+    color: #cfd8dc;
+    font-size: 15px;
+    padding: 16px 10px;
+    text-decoration: none;
+    margin: auto;
+  }
+  
+  .menu-sidebar a i {
+    margin-right: 10px;
+  }
+  .display-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+  }
+  .display-course h2{
+  
+      color: rgb(7, 7, 7);
+  }
+  .control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  body h3 {
+    font-size: 25px;
+  }
+  .head {
+    display: flex;
+    height: 95px;
+    /* background-color: #fcfafa; */
+    justify-content: space-around;
+    align-items: center;
+  }
+  .text-center{
+    color: #2b2b34;
+    /* margin-left: 200px; */
+  }
+  
+  #content {
+    margin-left: 100px;
+  }
+  .general-info {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  
+  .head p {
+    font-size: 15px;
+    line-height: 5;
+    text-align: center;
+    color: #555;
+    margin: 10px auto;
+    max-width: 80%;
+  }
+  
+  #btnLogout  {
+    font-size: inherit; /* Kế thừa kích thước chữ từ phần tử cha */
+    padding: 5px 10px;
+    width: auto;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+  }
+  #searchCourseName{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  #orderCourse{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  /* .searchCourseInfo{
+    margin-left: 100px;
+    width: 200px;
+  } */
+  .handleCourseIName{
+    margin-left: 50px;
+  }
+    
+  .divider {
+    width: 33%;
+    border-bottom: 3px solid rgba(74, 75, 104, 1);
+    margin-top: 10px;
+    margin: 10px auto;
+  
+  }
+  
+  footer {
+    text-align: center;
+      /* background-color: rgb(251, 241, 241); */
+      color: black;
+      padding: 2px 0;
+      /* position: fixed; */
+      /* bottom: 0 !important; */
+      width: 100%;
+      margin-left: 100px;
+  }
+  .divTable {
+    margin: 20px 10px 20px 250px;
+    padding: 20px 20px;
+  }
+  /* table{
+    width: 1100px !important;
+    margin-left: 350px;
+    background-color: whitesmoke;
+  }
+  table, th, td {
+    border: 1px solid #dddddd;
+  } */
+  /* th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 5px;
+    text-align: left;
+  } */
+  .pagination{
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 0px;
+   
+  }
+  
+  .pagination ul {
+    display: inline-block; 
+    /* Hiển thị danh sách số trang như một khối trên cùng 1 dòng */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    display: inline;
+    margin: 0 5px; 
+    /* Khoảng cách giữa các số trang */
+  }
+  
+  
